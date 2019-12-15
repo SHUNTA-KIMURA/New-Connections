@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <item
+            android:id="@+id/item1"
+            android:icon="@drawable/post"
+            app:itemIconTint="@color/bnv_tab_item_foreground"
+            app:itemTextColor="@color/bnv_tab_item_foreground"
+            android:title="Post" />
+
+        <item
+            android:id="@+id/item2"
+            android:icon="@drawable/home"
+            app:itemIconTint="@color/bnv_tab_item_foreground"
+            app:itemTextColor="@color/bnv_tab_item_foreground"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/item3"
+            android:icon="@android:drawable/ic_dialog_alert"
+            app:itemIconTint="@color/bnv_tab_item_foreground"
+            app:itemTextColor="@color/bnv_tab_item_foreground"
+            android:title="My Page" />
+
+    </menu>
